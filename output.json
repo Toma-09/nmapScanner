@@ -1,0 +1,224 @@
+[
+    {
+        "host": {
+            "host_ip": "192.168.1.1",
+            "hostname": "livebox.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "A4:3E:51:6D:99:36",
+            "vendor(mac)": "Anov France"
+        },
+        "os": [
+            {
+                "accuracy": "96",
+                "os": "Linux 2.6.32",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X"
+            },
+            {
+                "accuracy": "96",
+                "os": "Linux 2.6.32 or 3.10",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X"
+            },
+            {
+                "accuracy": "93",
+                "os": "Linux 2.6.32 - 2.6.39",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X"
+            },
+            {
+                "accuracy": "91",
+                "os": "Linux 3.0",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X"
+            },
+            {
+                "accuracy": "91",
+                "os": "Linux 3.2 - 3.8",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 2.6.32 - 3.10",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 2.6.32 - 3.0",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X"
+            },
+            {
+                "accuracy": "89",
+                "os": "Linux 4.4",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "4.X"
+            },
+            {
+                "accuracy": "88",
+                "os": "Synology DiskStation Manager 5.2-5644",
+                "vendor": "Synology",
+                "os_family": "DiskStation Manager",
+                "os_gen": "5.X"
+            },
+            {
+                "accuracy": "88",
+                "os": "Synology DiskStation Manager 5.1",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": null
+            }
+        ],
+        "ports": [
+            {
+                "port": 53,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "domain",
+                "product": "dnsmasq",
+                "version": "gen_2.78_v0.1.6"
+            },
+            {
+                "port": 80,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 139,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Samba smbd",
+                "version": "3.X - 4.X"
+            },
+            {
+                "port": 443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 445,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Samba smbd",
+                "version": "3.0.37"
+            },
+            {
+                "port": 631,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ipp",
+                "product": "CUPS",
+                "version": "2.3"
+            }
+        ]
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.10",
+            "hostname": "devolo.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "B8:BE:F4:47:8D:AA",
+            "vendor(mac)": "devolo AG"
+        },
+        "os": [
+            {
+                "accuracy": "100",
+                "os": "OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4)",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X"
+            }
+        ],
+        "ports": [
+            {
+                "port": 80,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https",
+                "product": "",
+                "version": ""
+            }
+        ]
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.11",
+            "hostname": "PC-405.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "08:D5:9D:3A:A5:9D",
+            "vendor(mac)": "Sagemcom Broadband SAS"
+        },
+        "os": [
+            {
+                "accuracy": "100",
+                "os": "Linux 3.2 - 4.9",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X"
+            }
+        ],
+        "ports": [
+            {
+                "port": 8080,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http-proxy",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 8443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https-alt",
+                "product": "",
+                "version": ""
+            }
+        ]
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.12",
+            "hostname": "pc-2.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "A8:96:75:33:4B:84",
+            "vendor(mac)": "Motorola Mobility, a Lenovo Company"
+        },
+        "os": [
+            {
+                "error": "No match found for the requested OS"
+            }
+        ],
+        "ports": null
+    }
+]

@@ -1,0 +1,87 @@
+{
+    "host": [
+        {
+            "host": "192.168.1.39",
+            "state": "up",
+            "hostname": "romain-precision.home",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        },
+        {
+            "host": "192.168.1.39",
+            "state": "up",
+            "hostname": "romain-precision.home",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        },
+        {
+            "host": "192.168.1.39",
+            "state": "up",
+            "hostname": "romain-precision.home",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        },
+        {
+            "host": "192.168.1.39",
+            "state": "up",
+            "hostname": "romain-precision.home",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        },
+        {
+            "host": "192.168.1.39",
+            "state": "up",
+            "hostname": "romain-precision.home",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        },
+        {
+            "host": "192.168.1.39",
+            "state": "up",
+            "hostname": "romain-precision.home",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        },
+        {
+            "host": "192.168.1.39",
+            "state": "up",
+            "hostname": "romain-precision.home",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        },
+        {
+            "host": "192.168.1.39",
+            "state": "up",
+            "hostname": "romain-precision.home",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        }
+    ],
+    "os": [
+        {
+            "accuracy": "100",
+            "os": "Linux 4.15 - 5.6",
+            "vendor": "Linux",
+            "osfamily": "Linux",
+            "osgen": "4.X"
+        }
+    ],
+    "ports": [
+        {
+            "port": 80,
+            "state": "open",
+            "reason": "syn-ack",
+            "service": "http",
+            "product": "Apache httpd",
+            "version": "2.4.41"
+        }
+    ]
+}
