@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Other Python files not used anymore
+nmapScanner.py
+essai.py
+main.py
+save.py
