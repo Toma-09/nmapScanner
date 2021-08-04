@@ -1,0 +1,68 @@
+[
+    {
+        "host": {
+            "host_ip": "10.1.20.1",
+            "hostname": "gw.smile.office.secin.lu",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "00:00:5E:00:01:78",
+            "vendor(mac)": "Icann, Iana Department"
+        },
+        "os": [
+            {
+                "accuracy": "100",
+                "os": "OpenBSD 6.0 - 6.4",
+                "vendor": "OpenBSD",
+                "os_family": "OpenBSD",
+                "os_gen": "6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 22,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ssh",
+                "product": "OpenSSH",
+                "version": "8.4"
+            },
+            {
+                "port": 53,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "domain",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 199,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "smux",
+                "product": "Linux SNMP multiplexer",
+                "version": ""
+            },
+            {
+                "port": 5666,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "tcpwrapped",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 7911,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "omapi",
+                "product": "ISC (BIND|DHCPD) OMAPI",
+                "version": ""
+            }
+        ],
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (00:00:5E:00:01:78) in the database"
+        }
+    }
+]

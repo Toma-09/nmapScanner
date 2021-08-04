@@ -2,6 +2,22 @@
     "MacAddressVendorMappings": {
         "VendorMapping": [
             {
+                "@mac_prefix": "08:87:C6",
+                "@vendor_name": "Ingram Micro Services"
+            },
+            {
+                "@mac_prefix": "A4:3E:51",
+                "@vendor_name": "Anov France"
+            },
+            {
+                "@mac_prefix": "B8:26:6C",
+                "@vendor_name": "Anov France"
+            },
+            {
+                "@mac_prefix": "30:7C:B2",
+                "@vendor_name": "Anov France"
+            },
+            {
                 "@mac_prefix": "EC:68:81",
                 "@vendor_name": "Palo Alto Networks"
             },
@@ -4433,7 +4449,6 @@
                 "@mac_prefix": "FC:FB:FB",
                 "@vendor_name": "Cisco Systems, Inc"
             }
-        ],
-        "#text": "¨"
+        ]
     }
 }

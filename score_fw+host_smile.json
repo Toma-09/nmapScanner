@@ -1,0 +1,232 @@
+[
+    {
+        "host": {
+            "host_ip": "10.1.20.1",
+            "hostname": "gw.smile.office.secin.lu",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "00:00:5E:00:01:78",
+            "vendor(mac)": "Icann, Iana Department"
+        },
+        "os": [
+            {
+                "accuracy": "100",
+                "os": "OpenBSD 6.0 - 6.4",
+                "vendor": "OpenBSD",
+                "os_family": "OpenBSD",
+                "os_gen": "6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 22,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ssh",
+                "product": "OpenSSH",
+                "version": "8.4"
+            },
+            {
+                "port": 53,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "domain",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 199,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "smux",
+                "product": "Linux SNMP multiplexer",
+                "version": ""
+            },
+            {
+                "port": 5666,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "tcpwrapped",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 7911,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "omapi",
+                "product": "ISC (BIND|DHCPD) OMAPI",
+                "version": ""
+            }
+        ],
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (00:00:5E:00:01:78) in the database",
+            "os_scan_number": 0
+        }
+    },
+    {
+        "host": {
+            "host_ip": "10.1.20.31",
+            "hostname": "DESKTOP-51CJTMG.smile.office.secin.lu",
+            "state": "up",
+            "reason": "localhost-response",
+            "mac": "localhost",
+            "vendor(mac)": "-"
+        },
+        "os": [
+            {
+                "accuracy": "99",
+                "os": "Microsoft Windows 10 1809 - 1909",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "95",
+                "os": "Microsoft Windows 10 1709 - 1803",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "93",
+                "os": "Microsoft Windows 10 1607",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "93",
+                "os": "Microsoft Windows 10 1709 - 1909",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "92",
+                "os": "Microsoft Windows 10 1703",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "92",
+                "os": "Microsoft Windows 7 SP1",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "7",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Microsoft Windows Longhorn",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "Longhorn",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Microsoft Windows 10 1511",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Microsoft Windows 7 or 8.1 R1",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "7",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Microsoft Windows 10 10586 - 14393",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 135,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "msrpc",
+                "product": "Microsoft Windows RPC",
+                "version": ""
+            },
+            {
+                "port": 443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https",
+                "product": "VMware Workstation SOAP API",
+                "version": "16.1.2"
+            },
+            {
+                "port": 445,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "microsoft-ds",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 808,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "mc-nmf",
+                "product": ".NET Message Framing",
+                "version": ""
+            },
+            {
+                "port": 902,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "vmware-auth",
+                "product": "VMware Authentication Daemon",
+                "version": "1.10"
+            },
+            {
+                "port": 912,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "vmware-auth",
+                "product": "VMware Authentication Daemon",
+                "version": "1.0"
+            },
+            {
+                "port": 5357,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "Microsoft HTTPAPI httpd",
+                "version": "2.0"
+            }
+        ],
+        "firewall_result": {
+            "firewall_result": "Localhost computer (not part of the network)"
+        }
+    }
+]

@@ -1,0 +1,637 @@
+[
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.1",
+            "hostname": "livebox.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "08:87:C6:D8:95:30",
+            "vendor(mac)": "Ingram Micro Services"
+        },
+        "os": [
+            {
+                "accuracy": "96",
+                "os": "Linux 2.6.32",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "93",
+                "os": "Dish Network Hopper media device",
+                "vendor": "Dish",
+                "os_family": "embedded",
+                "os_gen": null,
+                "os_type": "media device",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Linux 3.2 - 3.8",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 2.6.32 - 3.10",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 2.6.32 - 3.0",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 3.0",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "Excito B3 file server (Linux 2.6.39)",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "Linux 3.4",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "WatchGuard Fireware 11.8",
+                "vendor": "WatchGuard",
+                "os_family": "Fireware",
+                "os_gen": "11.X",
+                "os_type": "firewall",
+                "firewall_os_accuracy": "Firewall accuracy percentage : 89%"
+            },
+            {
+                "accuracy": "89",
+                "os": "Linux 2.6.32 or 3.10",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 53,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "domain",
+                "product": "dnsmasq",
+                "version": "gen_2.78_v0.1.6"
+            },
+            {
+                "port": 80,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 139,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Samba smbd",
+                "version": "3.X - 4.X"
+            },
+            {
+                "port": 443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 445,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Samba smbd",
+                "version": "3.0.37"
+            },
+            {
+                "port": 631,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ipp",
+                "product": "CUPS",
+                "version": "2.3"
+            }
+        ],
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (08:87:C6:D8:95:30) in the database",
+            "os_scan_number": 0
+        },
+        "score": {
+            "score": 9
+        }
+    },
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.10",
+            "hostname": "devolo.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "B8:BE:F4:47:8D:AA",
+            "vendor(mac)": "devolo AG"
+        },
+        "os": [
+            {
+                "accuracy": "100",
+                "os": "OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4)",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "WAP",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 80,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https",
+                "product": "",
+                "version": ""
+            }
+        ],
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (B8:BE:F4:47:8D:AA) in the database"
+        },
+        "score": {
+            "score": 13
+        }
+    },
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.14",
+            "hostname": "Galaxy-M31-de-Anne.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "DA:7C:EC:37:EF:17",
+            "vendor(mac)": "-"
+        },
+        "os": [
+            {
+                "error": "No match found for the requested OS"
+            }
+        ],
+        "ports": null,
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (DA:7C:EC:37:EF:17) in the database"
+        },
+        "score": {
+            "score": 17
+        }
+    },
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.17",
+            "hostname": "pc-2.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "A8:96:75:33:4B:84",
+            "vendor(mac)": "Motorola Mobility, a Lenovo Company"
+        },
+        "os": [
+            {
+                "error": "No match found for the requested OS"
+            }
+        ],
+        "ports": null,
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (A8:96:75:33:4B:84) in the database"
+        },
+        "score": {
+            "score": 21
+        }
+    },
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.18",
+            "hostname": "pc-57.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "74:F9:CA:85:FB:AB",
+            "vendor(mac)": "Nintendo"
+        },
+        "os": [
+            {
+                "error": "No match found for the requested OS"
+            }
+        ],
+        "ports": null,
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (74:F9:CA:85:FB:AB) in the database",
+            "os_scan_number": 0
+        },
+        "score": {
+            "score": 25
+        }
+    },
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.19",
+            "hostname": "Android.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "54:13:79:87:DB:45",
+            "vendor(mac)": "Hon Hai Precision Ind."
+        },
+        "os": [
+            {
+                "accuracy": "100",
+                "os": "Android 5.1",
+                "vendor": "Google",
+                "os_family": "Android",
+                "os_gen": "5.X",
+                "os_type": "phone",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "100",
+                "os": "Android 7.1.2 (Linux 3.4)",
+                "vendor": "Google",
+                "os_family": "Android",
+                "os_gen": "7.X",
+                "os_type": "phone",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 80,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "nginx",
+                "version": ""
+            },
+            {
+                "port": 8008,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 8009,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ajp13",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 8443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https-alt",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 9000,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "cslistener",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 9080,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "Mongoose httpd",
+                "version": ""
+            }
+        ],
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (54:13:79:87:DB:45) in the database",
+            "os_scan_number": 0
+        },
+        "score": {
+            "score": 29
+        }
+    },
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.28",
+            "hostname": "DESKTOP-51CJTMG.home",
+            "state": "up",
+            "reason": "localhost-response",
+            "mac": "localhost",
+            "vendor(mac)": "-"
+        },
+        "os": [
+            {
+                "accuracy": "98",
+                "os": "Microsoft Windows 10 1809 - 1909",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "93",
+                "os": "Microsoft Windows 10 1709 - 1803",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "93",
+                "os": "Microsoft Windows 10 1709 - 1909",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "92",
+                "os": "Microsoft Windows XP SP3",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "XP",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "92",
+                "os": "Microsoft Windows Longhorn",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "Longhorn",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Microsoft Windows 7 SP1",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "7",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Microsoft Windows 10 1607",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Microsoft Windows 10 1703",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "10",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Microsoft Windows 7 Enterprise SP1",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "7",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Microsoft Windows 8",
+                "vendor": "Microsoft",
+                "os_family": "Windows",
+                "os_gen": "8",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 135,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "msrpc",
+                "product": "Microsoft Windows RPC",
+                "version": ""
+            },
+            {
+                "port": 139,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Microsoft Windows netbios-ssn",
+                "version": ""
+            },
+            {
+                "port": 443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https",
+                "product": "VMware Workstation SOAP API",
+                "version": "16.1.2"
+            },
+            {
+                "port": 445,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "microsoft-ds",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 808,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "mc-nmf",
+                "product": ".NET Message Framing",
+                "version": ""
+            },
+            {
+                "port": 902,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "vmware-auth",
+                "product": "VMware Authentication Daemon",
+                "version": "1.10"
+            },
+            {
+                "port": 912,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "vmware-auth",
+                "product": "VMware Authentication Daemon",
+                "version": "1.0"
+            },
+            {
+                "port": 5357,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "Microsoft HTTPAPI httpd",
+                "version": "2.0"
+            },
+            {
+                "port": 16992,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "Intel Active Management Technology User Notification Service httpd",
+                "version": "11.8.79.3722"
+            }
+        ],
+        "firewall_result": {
+            "firewall_result": "Localhost computer (not part of the network)",
+            "os_scan_number": 0
+        },
+        "score": {
+            "score": 33
+        }
+    },
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.39",
+            "hostname": "romain-precision-5520.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "9C:DA:3E:F6:79:76",
+            "vendor(mac)": "Intel Corporate"
+        },
+        "os": [
+            {
+                "accuracy": "100",
+                "os": "Linux 4.15 - 5.6",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "4.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 22,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ssh",
+                "product": "OpenSSH",
+                "version": "8.2p1 Ubuntu 4ubuntu0.2"
+            },
+            {
+                "port": 80,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "Apache httpd",
+                "version": "2.4.41"
+            }
+        ],
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (9C:DA:3E:F6:79:76) in the database"
+        },
+        "score": {
+            "score": 37
+        }
+    },
+    {
+        "final_result": "The scanned device has a great chance of being a firewall with 70% - 90% accuracy"
+    },
+    {
+        "host": {
+            "host_ip": "192.168.1.41",
+            "hostname": "S21-de-Romain-1.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "5E:B9:DA:A3:90:73",
+            "vendor(mac)": "-"
+        },
+        "os": [
+            {
+                "error": "No match found for the requested OS"
+            }
+        ],
+        "ports": null,
+        "firewall_result": {
+            "firewall_result": "No match for requested MAC (5E:B9:DA:A3:90:73) in the database"
+        },
+        "score": {
+            "score": 41
+        }
+    }
+]

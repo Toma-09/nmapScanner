@@ -1,4 +1,8 @@
 <MacAddressVendorMappings>
+    <VendorMapping mac_prefix="08:87:C6" vendor_name="Ingram Micro Services"/>
+    <VendorMapping mac_prefix="A4:3E:51" vendor_name="Anov France"/>
+    <VendorMapping mac_prefix="B8:26:6C" vendor_name="Anov France"/>
+    <VendorMapping mac_prefix="30:7C:B2" vendor_name="Anov France"/>
     <VendorMapping mac_prefix="EC:68:81" vendor_name="Palo Alto Networks"/>
     <VendorMapping mac_prefix="E8:98:6D" vendor_name="Palo Alto Networks"/>
     <VendorMapping mac_prefix="E4:A7:49" vendor_name="Palo Alto Networks"/>
@@ -21,7 +25,7 @@
     <VendorMapping mac_prefix="08:03:42" vendor_name="Palo Alto Networks"/>
     <VendorMapping mac_prefix="00:86:9C" vendor_name="Palo Alto Networks"/>
     <VendorMapping mac_prefix="00:1B:17" vendor_name="Palo Alto Networks"/>
-    <VendorMapping mac_prefix="00:16:BF" vendor_name="PaloDEx Group Oy"/>¨
+    <VendorMapping mac_prefix="00:16:BF" vendor_name="PaloDEx Group Oy"/>
     <VendorMapping mac_prefix="00:09:0F" vendor_name="Fortinet Inc."/>
     <VendorMapping mac_prefix="00:0C:E6" vendor_name="Fortinet Inc."/>
     <VendorMapping mac_prefix="04:D5:90" vendor_name="Fortinet, Inc."/>

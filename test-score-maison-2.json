@@ -1,0 +1,150 @@
+[
+    {
+        "host": {
+            "host_ip": "192.168.1.1",
+            "hostname": "livebox.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "A4:3E:51:6D:99:36",
+            "vendor(mac)": "Anov France"
+        },
+        "os": [
+            {
+                "accuracy": "96",
+                "os": "Linux 2.6.32",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "94",
+                "os": "Linux 2.6.32 or 3.10",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "93",
+                "os": "Linux 2.6.32 - 2.6.39",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Linux 3.2 - 3.8",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 4.4",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "4.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 2.6.32 - 3.10",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 2.6.32 - 3.0",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 3.0",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "Linux 3.4",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "WatchGuard Fireware 11.8",
+                "vendor": "WatchGuard",
+                "os_family": "Fireware",
+                "os_gen": "11.X",
+                "os_type": "firewall",
+                "firewall_os_accuracy": "Firewall accuracy percentage : 89%"
+            }
+        ],
+        "ports": [
+            {
+                "port": 80,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 139,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Samba smbd",
+                "version": "3.X - 4.X"
+            },
+            {
+                "port": 443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 445,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Samba smbd",
+                "version": "3.0.37"
+            },
+            {
+                "port": 631,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ipp",
+                "product": "CUPS",
+                "version": "2.3"
+            }
+        ],
+        "firewall_result": {
+            "os_scan_number": 1,
+            "firewall_result": "1 result found in database for MAC : A4:3E:51:6D:99:36 ; Corresponds to vendor : Anov France "
+        }
+    }
+]
