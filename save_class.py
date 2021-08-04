@@ -311,7 +311,7 @@ class NMAPScan:
         # since it's more likely to not be a firewall (not enough info to establish the device's nature).
 
         if web_ct != 0 and mail_ct != 0 and other_ct != 0 and len(host_protocol_list) > 3:
-            self.sum_ct = self.coefficient_2 * (web_ct + mail_ct + other_ct)
+            self.score += self.coefficient_2 * (web_ct + mail_ct + other_ct)
             if self.is_os_firewall and self.is_mac_vendor:
                 self.score += 13
             elif self.is_os_firewall:
@@ -319,7 +319,7 @@ class NMAPScan:
             elif self.is_mac_vendor:
                 self.score += 5
         elif ((web_ct != 0 and mail_ct != 0 and other_ct == 0) or (web_ct != 0 and other_ct != 0 and mail_ct == 0) or (mail_ct != 0 and other_ct != 0 and web_ct == 0)) and len(host_protocol_list) > 3:
-            self.sum_ct = (web_ct + mail_ct + other_ct)
+            self.score += (web_ct + mail_ct + other_ct)
             if self.is_os_firewall and self.is_mac_vendor:
                 self.score += 9
             elif self.is_os_firewall:
@@ -327,7 +327,7 @@ class NMAPScan:
             elif self.is_mac_vendor:
                 self.score += 3
         else:
-            self.sum_ct = self.coefficient_1 * (web_ct + mail_ct + other_ct)
+            self.score += self.coefficient_1 * (web_ct + mail_ct + other_ct)
             if self.is_os_firewall and self.is_mac_vendor:
                 self.score += 7
             elif self.is_os_firewall:
@@ -346,11 +346,11 @@ class NMAPScan:
                                           'between 0% - 30% chance of being one.'
         elif self.score in (5, 12):
             print("The scanned device may be a firewall with 30% - 70% accuracy")
-            self.scan_hosts.append({'final_result': 'The scanned device may be a firewall with 30% - 70% accuracy'})
+            # self.scan_hosts.append({'final_result': 'The scanned device may be a firewall with 30% - 70% accuracy'})
         else:
             print("The scanned device has a great chance of being a firewall with 70% - 90% accuracy")
-            self.scan_hosts.append({'final_result': 'The scanned device has a great chance of being a firewall with '
-                                                    '70% - 90% accuracy'})
+            # self.scan_hosts.append({'final_result': 'The scanned device has a great chance of being a firewall with '
+                                                    # '70% - 90% accuracy'})
 
         # Clearing both lists and score after scoring each host
 
