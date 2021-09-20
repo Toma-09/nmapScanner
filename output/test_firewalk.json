@@ -1,0 +1,166 @@
+[
+    {
+        "host": {
+            "host_ip": "192.168.1.1",
+            "hostname": "livebox.home",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "08:87:C6:D8:95:30",
+            "vendor(mac)": "Ingram Micro Services"
+        },
+        "os": [
+            {
+                "accuracy": "96",
+                "os": "Linux 2.6.32",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+        {
+            "port": 53,
+            "state": "open",
+            "reason": "syn-ack",
+            "service": "domain",
+            "product": "dnsmasq",
+            "version": "gen_2.78_v0.1.6"
+        },
+            {
+                "accuracy": "93",
+                "os": "Dish Network Hopper media device",
+                "vendor": "Dish",
+                "os_family": "embedded",
+                "os_gen": null,
+                "os_type": "media device",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "91",
+                "os": "Linux 3.2 - 3.8",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 2.6.32 - 3.10",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 2.6.32 - 3.0",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "90",
+                "os": "Linux 3.0",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "Excito B3 file server (Linux 2.6.39)",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "Linux 2.6.39",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "2.6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "Linux 3.4",
+                "vendor": "Linux",
+                "os_family": "Linux",
+                "os_gen": "3.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            },
+            {
+                "accuracy": "89",
+                "os": "WatchGuard Fireware 11.8",
+                "vendor": "WatchGuard",
+                "os_family": "Fireware",
+                "os_gen": "11.X",
+                "os_type": "firewall",
+                "firewall_os_accuracy": "Firewall accuracy percentage : 89%"
+            }
+        ],
+
+            {
+                "port": 80,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "http",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 139,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Samba smbd",
+                "version": "3.X - 4.X"
+            },
+            {
+                "port": 443,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "https",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 445,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "netbios-ssn",
+                "product": "Samba smbd",
+                "version": "3.0.37"
+            },
+            {
+                "port": 631,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ipp",
+                "product": "CUPS",
+                "version": "2.3"
+            }
+        ],
+        "firewall_result": {
+            "os_scan_number": 1,
+            "firewall_result": "1 result found in database for MAC : 08:87:C6:D8:95:30 ; Corresponds to vendor : Ingram Micro Services ",
+            "final_result": "The scanned device has a great chance of being a firewall with 90+% accuracy"
+        },
+        "score": {
+            "os_scan_number": 1,
+            "firewall_result": "1 result found in database for MAC : 08:87:C6:D8:95:30 ; Corresponds to vendor : Ingram Micro Services ",
+            "final_result": "The scanned device has a great chance of being a firewall with 90+% accuracy"
+        }
+    }
+]

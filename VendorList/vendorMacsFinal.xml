@@ -1,4 +1,5 @@
 <MacAddressVendorMappings>
+    <VendorMapping mac_prefix="00:00:5E" vendor_name="Icann, Iana Department"/>
     <VendorMapping mac_prefix="08:87:C6" vendor_name="Ingram Micro Services"/>
     <VendorMapping mac_prefix="A4:3E:51" vendor_name="Anov France"/>
     <VendorMapping mac_prefix="B8:26:6C" vendor_name="Anov France"/>

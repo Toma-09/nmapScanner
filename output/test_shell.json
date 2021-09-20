@@ -1,0 +1,75 @@
+[
+    {
+        "host": {
+            "host_ip": "10.1.20.1",
+            "hostname": "gw.smile.office.secin.lu",
+            "state": "up",
+            "reason": "arp-response",
+            "mac": "00:00:5E:00:01:78",
+            "vendor(mac)": "Icann, Iana Department"
+        },
+        "os": [
+            {
+                "accuracy": "100",
+                "os": "OpenBSD 6.0 - 6.4",
+                "vendor": "OpenBSD",
+                "os_family": "OpenBSD",
+                "os_gen": "6.X",
+                "os_type": "general purpose",
+                "firewall_os_accuracy": "No firewall OS detected via scan"
+            }
+        ],
+        "ports": [
+            {
+                "port": 22,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "ssh",
+                "product": "OpenSSH",
+                "version": "8.4"
+            },
+            {
+                "port": 53,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "domain",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 199,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "smux",
+                "product": "Linux SNMP multiplexer",
+                "version": ""
+            },
+            {
+                "port": 5666,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "tcpwrapped",
+                "product": "",
+                "version": ""
+            },
+            {
+                "port": 7911,
+                "state": "open",
+                "reason": "syn-ack",
+                "service": "omapi",
+                "product": "ISC (BIND|DHCPD) OMAPI",
+                "version": ""
+            }
+        ],
+        "firewall_result": {
+            "os_scan_number": 0,
+            "os_name": "OpenBSD (OpenBSD)",
+            "mac_vendor_found": true,
+            "mac_vendor_result": "MAC prefix : 00:00:5E:00:01:78 ; Corresponds to vendor : Icann, Iana Department "
+        },
+        "score": {
+            "score": 6,
+            "final_result": "The scanned device may be a firewall with between 40% - 60% accuracy."
+        }
+    }
+]
